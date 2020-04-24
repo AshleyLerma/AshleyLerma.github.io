@@ -19,3 +19,5 @@ Minimum Requirements
 ![](outlines/indexDiagram.jpg)
 
 ![](outlines/contactDiagram.jpg)
+
+![](outlines/portfolioDiagram.jpg)
