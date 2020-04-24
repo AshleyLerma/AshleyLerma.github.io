@@ -16,4 +16,4 @@ Minimum Requirements
 - Must have 100 commits
 - Must be a responsive web page with responsive images
 
-<img src="outlines/indexDiagram.jpg/>
+<img src="outlines/indexDiagram.jpg" alt="index diagram">
