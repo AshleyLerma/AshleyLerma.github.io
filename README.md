@@ -17,3 +17,5 @@ Minimum Requirements
 - Must be a responsive web page with responsive images
 
 ![](outlines/indexDiagram.jpg)
+
+![](outlines/contactDiagram.jpg)
