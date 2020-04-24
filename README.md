@@ -1,6 +1,6 @@
 # AshleyLerma.github.io
 
-The homework for week 2 was to create a portfolio including a home, contact and portfolio page. 
+The homework for week 2 was to create a portfolio including a home, contact and portfolio page.
 
 Minimum Requirements
 
@@ -14,4 +14,6 @@ Minimum Requirements
 - Must contain your personalized information. (bio, name, images, links to social media, etc.)
 - Must properly utilize Bootstrap components and grid system.
 - Must have 100 commits
-- Must be a responsive web page with responsive images 
+- Must be a responsive web page with responsive images
+
+<img src="outlines/indexDiagram.jpg/>
