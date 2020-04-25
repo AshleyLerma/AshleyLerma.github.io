@@ -73,3 +73,57 @@ form {
 .btn-secondary {
   background-color: #faa094ff;
 }
+
+/* Portfolio Formatting */
+.column {
+  display: flex;
+  height: 1200px;
+  width: 800px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.meal1,
+.meal2,
+.meal3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.meal1 {
+  margin-top: 20px;
+  background-image: url("./../images/steak.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.meal2 {
+  background-image: url("./../images/soup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.meal3 {
+  background-image: url("./../images/cheesecake.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text {
+  background: rgb(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+}
+
+.text p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
