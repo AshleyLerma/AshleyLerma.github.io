@@ -95,7 +95,8 @@ form {
 
 .project1 {
   margin-top: 20px;
-  background-image: url("/Users/scoutlerma/GitHub/AshleyLerma.github.io/assets/catandmouse.png");
+  background-image: url("../assets/catandmouse.png");
+  background-color: #faa094ff;
   background-repeat: no-repeat;
   background-position: center;
 }
