@@ -75,6 +75,10 @@ form {
 }
 
 /* Portfolio Formatting */
+a {
+  color: white;
+}
+
 .column {
   display: flex;
   flex-direction: column;
