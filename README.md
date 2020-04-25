@@ -16,6 +16,8 @@ Minimum Requirements
 - Must have 100 commits
 - Must be a responsive web page with responsive images
 
+Below are the preliminary ideas for how to break down each page but changes were made as needed.
+
 ![](outlines/indexDiagram.jpg)
 
 ![](outlines/contactDiagram.jpg)
