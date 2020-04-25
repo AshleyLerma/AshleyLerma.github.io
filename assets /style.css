@@ -21,6 +21,8 @@ header {
 
 .aboutMe {
   background-color: white;
+  max-width: 1000px;
+  margin: auto;
 }
 
 #darcy {
