@@ -79,6 +79,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #7e7f82;
+}
+
 .column {
   display: flex;
   flex-direction: column;
