@@ -5,7 +5,7 @@ body {
 header {
   display: flex;
   background-color: salmon;
-  color: sandybrown;
+  color: white;
   justify-content: center;
 }
 /* <!-- TO DO:Update Header tag with back ground color, and flex applied in css --> */
