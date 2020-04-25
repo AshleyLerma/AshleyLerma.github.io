@@ -65,6 +65,11 @@ hr {
 }
 
 /* Contact Page Formatting */
+
+form {
+  padding-bottom: 20px;
+}
+
 .btn-secondary {
   background-color: #faa094ff;
 }
