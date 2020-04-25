@@ -39,6 +39,11 @@ hr {
   padding: 10px 25px;
 }
 
+.info {
+  padding-top: 30px;
+  color: #7e7f82;
+}
+
 #darcy {
   width: 100%;
   height: auto;
