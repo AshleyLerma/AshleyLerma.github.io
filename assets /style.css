@@ -83,9 +83,9 @@ form {
   margin: 0 auto;
 }
 
-.meal1,
-.meal2,
-.meal3 {
+.project1,
+.project2,
+.project3 {
   height: 100%;
   width: 100%;
   display: flex;
@@ -93,20 +93,20 @@ form {
   margin-bottom: 20px;
 }
 
-.meal1 {
+.project1 {
   margin-top: 20px;
   background-image: url("./../images/steak.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.meal2 {
+.project2 {
   background-image: url("./../images/soup.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.meal3 {
+.project3 {
   background-image: url("./../images/cheesecake.png");
   background-repeat: no-repeat;
   background-position: center;
