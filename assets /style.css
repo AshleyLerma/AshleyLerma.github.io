@@ -4,7 +4,11 @@ body {
 
 header {
   display: flex;
-  background-color: salmon;
+  background-color: #faa094ff;
   color: white;
   justify-content: center;
+}
+
+.navbar-light {
+  background-color: #9ed9ccff;
 }
