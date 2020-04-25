@@ -1,3 +1,4 @@
+/* On every page */
 body {
   margin: 0;
   background-color: #c6c8cc;
@@ -35,13 +36,14 @@ hr {
   justify-content: center;
 }
 
-.aboutMe {
+.container {
   background-color: white;
   max-width: 1000px;
   margin: auto;
   padding: 10px 25px;
 }
 
+/* About Me Page Formatting */
 .info {
   padding-top: 30px;
   color: #7e7f82;
@@ -58,3 +60,5 @@ hr {
   height: auto;
   display: flex;
 }
+
+/* Contact Page Formatting */
