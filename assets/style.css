@@ -108,6 +108,7 @@ a:hover {
 }
 
 .project2 {
+  background-image: url("../assets/mysiteimg.png");
   background-repeat: no-repeat;
   background-position: center;
 }
