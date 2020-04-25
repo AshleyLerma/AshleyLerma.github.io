@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #c6c8cc;
 }
 
 header {
@@ -16,4 +17,22 @@ header {
 .navbar {
   display: flex;
   justify-content: center;
+}
+
+.aboutMe {
+  background-color: white;
+}
+
+#darcy {
+  height: auto;
+  width: auto;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+#kili {
+  height: auto;
+  width: auto;
+  max-width: 450px;
+  max-height: 450px;
 }
