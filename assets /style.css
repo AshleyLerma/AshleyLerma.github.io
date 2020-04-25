@@ -44,12 +44,14 @@ hr {
 }
 
 .txtColor {
-  padding-top: 30px;
   color: #7e7f82;
 }
 
 /* About Me Page Formatting */
 
+.aboutMe {
+  padding-top: 30px;
+}
 #darcy {
   width: 100%;
   height: auto;
