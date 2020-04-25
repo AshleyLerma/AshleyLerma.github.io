@@ -12,3 +12,8 @@ header {
 .navbar-light {
   background-color: #9ed9ccff;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
