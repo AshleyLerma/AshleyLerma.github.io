@@ -1,8 +1,7 @@
 /* On every page */
-html body {
-  margin: 0;
+body {
+  margin: auto;
   background-color: #c6c8cc;
-  height: 100%;
 }
 
 header {
@@ -43,6 +42,7 @@ hr {
 
 .container {
   background-color: white;
+  max-width: 1000px;
   margin: auto;
   padding: 40px;
 }
