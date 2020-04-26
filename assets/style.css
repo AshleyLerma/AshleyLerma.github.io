@@ -127,19 +127,3 @@ a:hover {
   padding: 20px 40px;
   text-align: center;
 }
-
-/* Footer Formatting */
-.footer {
-  background-color: #faa094ff;
-  display: block;
-}
-.mt-auto {
-  margin-top: auto;
-}
-.py-3 {
-  padding-bottom: auto;
-  padding-top: 1rem;
-}
-.footy {
-  width: 100%;
-}
