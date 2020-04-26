@@ -1,7 +1,8 @@
 /* On every page */
-body {
+html body {
   margin: 0;
   background-color: #c6c8cc;
+  height: 100%;
 }
 
 header {
@@ -42,9 +43,7 @@ hr {
 
 .container {
   background-color: white;
-  max-width: 1000px;
   margin: auto;
-  padding: 10px 25px;
 }
 
 .txtColor {
@@ -71,7 +70,7 @@ hr {
 /* Contact Page Formatting */
 
 form {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .btn-secondary {
