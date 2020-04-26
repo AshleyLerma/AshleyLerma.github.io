@@ -2,6 +2,7 @@
 body {
   margin: auto;
   background-color: #c6c8cc;
+  height: 100%;
 }
 
 header {
@@ -126,3 +127,5 @@ a:hover {
   padding: 20px 40px;
   text-align: center;
 }
+
+/* Footer Formatting */
