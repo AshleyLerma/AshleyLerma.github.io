@@ -44,6 +44,7 @@ hr {
 .container {
   background-color: white;
   margin: auto;
+  padding: 40px;
 }
 
 .txtColor {
@@ -68,10 +69,6 @@ hr {
 }
 
 /* Contact Page Formatting */
-
-form {
-  padding-bottom: 40px;
-}
 
 .btn-secondary {
   background-color: #faa094ff;
