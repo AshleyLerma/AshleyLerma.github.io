@@ -76,6 +76,12 @@ hr {
   display: flex;
 }
 
+.hookEm {
+  font-style: italic;
+  text-align: center;
+  color: #faa094ff;
+}
+
 /* Contact Page Formatting */
 
 .btn-secondary {
