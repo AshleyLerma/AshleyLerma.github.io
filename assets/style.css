@@ -11,6 +11,10 @@ header {
   color: white;
   justify-content: center;
 }
+
+main {
+  height: 100vh;
+}
 h1 {
   font-size: 50px;
 }
@@ -48,7 +52,6 @@ hr {
   margin: auto;
   padding: 40px;
   display: flex;
-  height: 100%;
   flex-direction: column;
 }
 
