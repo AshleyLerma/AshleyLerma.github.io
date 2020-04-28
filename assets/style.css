@@ -46,6 +46,9 @@ hr {
   max-width: 1000px;
   margin: auto;
   padding: 40px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 
 .txtColor {
