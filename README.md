@@ -18,8 +18,8 @@ Minimum Requirements
 
 Below are the preliminary ideas for how to break down each page but changes were made as needed.
 
-![](outlines/indexDiagram.jpg)
+![](assets/outlines/indexDiagram.jpg)
 
-![](outlines/contactDiagram.jpg)
+![](assets/outlines/contactDiagram.jpg)
 
-![](outlines/portfolioDiagram.jpg)
+![](assets/outlines/portfolioDiagram.jpg)
