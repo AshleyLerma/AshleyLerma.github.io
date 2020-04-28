@@ -17,6 +17,7 @@ h1 {
 
 h2 {
   color: #faa094ff;
+  font-size: 40px;
 }
 
 h3 {
@@ -53,13 +54,15 @@ hr {
 
 .txtColor {
   color: #7e7f82;
+  font-size: 25px;
 }
 
 /* About Me Page Formatting */
 
 .aboutMe {
-  padding-top: 30px;
-  font-size: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  border: 5px solid #9ed9ccff;
 }
 #darcy {
   width: 100%;
