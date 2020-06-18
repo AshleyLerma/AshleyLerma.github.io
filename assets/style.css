@@ -103,9 +103,7 @@ a:hover {
   margin: auto;
 }
 
-.project1,
-.project2,
-.project3 {
+.project {
   height: 400px;
   width: 100%;
   display: flex;
@@ -114,21 +112,27 @@ a:hover {
   background-color: #7e7f82;
 }
 
-.project1 {
+#project1 {
   margin-top: 20px;
   background-image: url("../assets/catandmouse.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.project2 {
-  background-image: url("../assets/mysiteimg.png");
+#project2 {
+  background-image: url("../assets/weather.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.project3 {
-  background-image: url("../assets/welp.jpg");
+#project3 {
+  background-image: url("../assets/gitDrunk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#project4 {
+  background-image: url("../assets/passwordGen.png");
   background-repeat: no-repeat;
   background-position: center;
 }
