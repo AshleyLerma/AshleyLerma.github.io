@@ -2,6 +2,8 @@
 
 The homework for week 2 was to create a portfolio including a home, contact and portfolio page.
 
+See it here : https://ashleylerma.github.io/
+
 Minimum Requirements
 
 - Functional, deployed application
