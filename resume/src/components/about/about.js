@@ -17,10 +17,9 @@ function About() {
             My name is Ashley Lerma often called by my middle name, Scout.
             Outside of work and class, I am a full time cat mom with a passion
             for travel and the outdoors. I am also one of the lucky few to be
-            born, raised and based in the wonderful city of Austin, Texas.
-            Experience working in a fast-paced enviorment where every detail
-            matters. I am always looking for a new challenge, so if you think I
-            would be a good fit for your company or project please contact me.
+            born, raised and based in the wonderful city of Austin, Texas. With
+            years of experience working in a fast-paced enviorment where every
+            detail matters, I am excited to grow my skills in this new endeavor.
           </p>
           <div className="row">
             <div className="columns contact-details">

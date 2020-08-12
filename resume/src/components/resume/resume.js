@@ -146,9 +146,9 @@ function Resume() {
             </ul>
           </div>
           {/* end skill-bars */}
-        </div>{" "}
+        </div>
         {/* main-col end */}
-      </div>{" "}
+      </div>
       {/* End skills */}
     </section>
   );

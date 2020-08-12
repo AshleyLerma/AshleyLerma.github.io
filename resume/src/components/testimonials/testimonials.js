@@ -25,8 +25,8 @@ function Testimonials() {
                 <li>
                   <blockquote>
                     <p>
-                      "'You miss 100 percent of the chances you don't take.' –
-                      Wayne Gretzky"
+                      'You miss 100 percent of the chances you don't take.' –
+                      Wayne Gretzky
                     </p>
                     <cite>Michael Scott</cite>
                   </blockquote>

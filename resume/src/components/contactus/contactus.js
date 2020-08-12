@@ -11,17 +11,13 @@ function Contact() {
         </div>
         <div className="ten columns">
           <p className="lead">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit.
+            I am always looking for a new challenge, so if you think I would be
+            a good fit for your company or project please contact me.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="eight columns">
-          {/* form */}
           <form action method="post" id="contactForm" name="contactForm">
             <fieldset>
               <div>
@@ -30,7 +26,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  defaultValue
+                  defaultValue={""}
                   size={35}
                   id="contactName"
                   name="contactName"
@@ -42,7 +38,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  defaultValue
+                  defaultValue={""}
                   size={35}
                   id="contactEmail"
                   name="contactEmail"
@@ -52,7 +48,7 @@ function Contact() {
                 <label htmlFor="contactSubject">Subject</label>
                 <input
                   type="text"
-                  defaultValue
+                  defaultValue={""}
                   size={35}
                   id="contactSubject"
                   name="contactSubject"
@@ -78,9 +74,11 @@ function Contact() {
               </div>
             </fieldset>
           </form>{" "}
-          {/* Form End */}
           {/* contact-warning */}
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning">
+            {" "}
+            There was an error, please try again.{" "}
+          </div>
           {/* contact-success */}
           <div id="message-success">
             <i className="fa fa-check" />
@@ -92,40 +90,14 @@ function Contact() {
           <div className="widget widget_contact">
             <h4>Address and Phone</h4>
             <p className="address">
-              Jonathan Doe
+              Ashley "Scout" Lerma
               <br />
-              1600 Amphitheatre Parkway <br />
-              Mountain View, CA 94043 US
+              lerma.scout@gmail.com
               <br />
-              <span>(123) 456-7890</span>
+              Austin, TX 78741 US
+              <br />
+              <span>(512) 636-3282</span>
             </p>
-          </div>
-          <div className="widget widget_tweets">
-            <h4 className="widget-title">Latest Tweets</h4>
-            <ul id="twitter">
-              <li>
-                <span>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum
-                  <a href="#">http://t.co/CGIrdxIlI3</a>
-                </span>
-                <b>
-                  <a href="#">2 Days Ago</a>
-                </b>
-              </li>
-              <li>
-                <span>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi
-                  <a href="#">http://t.co/CGIrdxIlI3</a>
-                </span>
-                <b>
-                  <a href="#">3 Days Ago</a>
-                </b>
-              </li>
-            </ul>
           </div>
         </aside>
       </div>
