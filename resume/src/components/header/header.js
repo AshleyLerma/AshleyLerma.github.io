@@ -42,22 +42,22 @@ function Header() {
                 Contact
               </a>
             </li>
-          </ul>{" "}
+          </ul>
           {/* end #nav */}
-        </nav>{" "}
+        </nav>
         {/* end #nav-wrap */}
         <div classname="row banner">
           <div classname="banner-text">
             <h1 classname="responsive-headline">I'm Jonathan Doe.</h1>
             <h3>
-              I'm a Manila based <span>graphic designer</span>,{" "}
+              I'm a Manila based <span>graphic designer</span>,
               <span>illustrator</span> and <span>webdesigner</span> creating
               awesome and effective visual identities for companies of all sizes
-              around the globe. Let's{" "}
+              around the globe. Let's
               <a classname="smoothscroll" href="#about">
                 start scrolling
               </a>
-              and learn more{" "}
+              and learn more
               <a classname="smoothscroll" href="#about">
                 about me
               </a>
@@ -171,11 +171,7 @@ function Header() {
               <i classname="fa fa-instagram">
                 <i classname="fa fa-dribbble">
                   <i classname="fa fa-skype">
-                    <i classname="icon-down-circle">
-                      );
-                      {"}"}
-                      {"}"});
-                    </i>
+                    <i classname="icon-down-circle"></i>
                   </i>
                 </i>
               </i>

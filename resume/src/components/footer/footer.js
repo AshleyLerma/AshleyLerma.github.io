@@ -45,7 +45,7 @@ function Footer() {
           <ul className="copyright">
             <li>© Copyright 2014 CeeVee</li>
             <li>
-              Design by{" "}
+              Design by
               <a title="Styleshout" href="http://www.styleshout.com/">
                 Styleshout
               </a>
