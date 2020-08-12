@@ -46,11 +46,12 @@ function Header() {
             with a background in event management. Detail oriented, and
             self-driven with a passion for learning. Enrolled in the{" "}
             <span>full-stack development</span> coding bootcamp at the
-            University of Texas at Austin. Let's{" "}
+            University of Texas at Austin.
+            {/* Let's{" "}
             <a className="smoothscroll" href="#about">
               start scrolling
             </a>{" "}
-            .
+            . */}
           </h3>
           <hr />
           <ul className="social">
