@@ -3,9 +3,6 @@ import React from "react";
 function Header() {
   return (
     <div>
-      var NewComponent = React.createClass({"{"}
-      render: function() {"{"}
-      return (
       <header id="home">
         <nav id="nav-wrap">
           <a classname="mobile-btn" href="#nav-wrap" title="Show navigation">
