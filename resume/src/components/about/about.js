@@ -14,32 +14,25 @@ function About() {
         <div className="nine columns main-col">
           <h2>About Me</h2>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam.
+            My name is Ashley Lerma often called by my middle name, Scout.
+            Outside of work and class, I am a full time cat mom with a passion
+            for travel and the outdoors. I am also one of the lucky few to be
+            born, raised and based in the wonderful city of Austin, Texas.
+            Experience working in a fast-paced enviorment where every detail
+            matters. I am always looking for a new challenge, so if you think I
+            would be a good fit for your company or project please contact me.
           </p>
           <div className="row">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
               <p className="address">
-                <span>Jonathan Doe</span>
+                <span>Ashley Lerma</span>
                 <br />
-                <span>
-                  1600 Amphitheatre Parkway
-                  <br />
-                  Mountain View, CA 94043 US
-                </span>
+                <span>Austin, TX 78741</span>
                 <br />
-                <span>(123)456-7890</span>
+                <span>(512)636-3282</span>
                 <br />
-                <span>anyone@website.com</span>
+                <span>lerma.scout@gmail.com</span>
               </p>
             </div>
             <div className="columns download">
@@ -50,10 +43,8 @@ function About() {
                 </a>
               </p>
             </div>
-          </div>{" "}
-          {/* end row */}
-        </div>{" "}
-        {/* end .main-col */}
+          </div>
+        </div>
       </div>
     </section>
   );
