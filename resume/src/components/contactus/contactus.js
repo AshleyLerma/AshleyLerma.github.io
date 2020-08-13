@@ -88,7 +88,7 @@ function Contact() {
         </div>
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>Reach Out Directly</h4>
             <p className="address">
               Ashley "Scout" Lerma
               <br />
