@@ -69,7 +69,7 @@ function Contact() {
               <div>
                 <button className="submit">Submit</button>
                 <span id="image-loader">
-                  <img alt="image" src="images/loader.gif" />
+                  <img alt="loading" src="images/loader.gif" />
                 </span>
               </div>
             </fieldset>
