@@ -34,11 +34,11 @@ function Portfolio() {
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-02" title="work">
-                  <img alt="tbd" src="images/portfolio/console.jpg" />
+                  <img alt="tbd" src="images/portfolio/bagit.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>Console</h5>
-                      <p>Web Development</p>
+                      <h5>BagIt</h5>
+                      <p>Grocery List App</p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -46,7 +46,7 @@ function Portfolio() {
                   </div>
                 </a>
               </div>
-            </div>{" "}
+            </div>
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -181,23 +181,21 @@ function Portfolio() {
         <div id="modal-02" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/m-console.jpg"
-            alt="tbd"
+            src="images/portfolio/modals/m-bagit.jpg"
+            alt="grocery cart"
           />
           <div className="description-box">
-            <h4>Console</h4>
-            <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
-            </p>
+            <h4>BagIt</h4>
+            <p>Keep track of your grocery list and shop with ease.</p>
             <span className="categories">
               <i className="fa fa-tag" />
-              Branding, Web Development
+              Javascript, HTML, SQL, Sequelize, CSS, React
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="https://bagit-and-tagit.herokuapp.com/" target="blank">
+              Try It
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
@@ -206,18 +204,14 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-judah.jpg"
-            alt="tbd"
+            alt="grocery cart"
           />
           <div className="description-box">
-            <h4>Judah</h4>
-            <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
-            </p>
+            <h4>TBD</h4>
+            <p>Info here</p>
             <span className="categories">
               <i className="fa fa-tag" />
-              Branding
+              Javascript, HTML, SQL, Sequelize, CSS, React
             </span>
           </div>
           <div className="link-box">
