@@ -18,7 +18,7 @@ function Contact() {
       </div>
       <div className="row">
         <div className="eight columns">
-          <form action method="post" id="contactForm" name="contactForm">
+          <form action="" method="post" id="contactForm" name="contactForm">
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -69,11 +69,11 @@ function Contact() {
               <div>
                 <button className="submit">Submit</button>
                 <span id="image-loader">
-                  <img alt src="images/loader.gif" />
+                  <img alt="image" src="images/loader.gif" />
                 </span>
               </div>
             </fieldset>
-          </form>{" "}
+          </form>
           {/* contact-warning */}
           <div id="message-warning">
             {" "}

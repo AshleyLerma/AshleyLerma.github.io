@@ -13,8 +13,8 @@ function Portfolio() {
           >
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-01" title>
-                  <img alt src="images/portfolio/coffee.jpg" />
+                <a href="#modal-01" title="work">
+                  <img alt="image" src="images/portfolio/coffee.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Coffee</h5>
@@ -30,8 +30,8 @@ function Portfolio() {
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-02" title>
-                  <img alt src="images/portfolio/console.jpg" />
+                <a href="#modal-02" title="work">
+                  <img alt="image" src="images/portfolio/console.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Console</h5>
@@ -47,8 +47,8 @@ function Portfolio() {
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-03" title>
-                  <img alt src="images/portfolio/judah.jpg" />
+                <a href="#modal-03" title="work">
+                  <img alt="image" src="images/portfolio/judah.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Judah</h5>
@@ -64,8 +64,8 @@ function Portfolio() {
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-04" title>
-                  <img alt src="images/portfolio/into-the-light.jpg" />
+                <a href="#modal-04" title="work">
+                  <img alt="image" src="images/portfolio/into-the-light.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Into The Light</h5>
@@ -81,8 +81,8 @@ function Portfolio() {
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-05" title>
-                  <img alt src="images/portfolio/farmerboy.jpg" />
+                <a href="#modal-05" title="work">
+                  <img alt="image" src="images/portfolio/farmerboy.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Farmer Boy</h5>
@@ -98,8 +98,8 @@ function Portfolio() {
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-06" title>
-                  <img alt src="images/portfolio/girl.jpg" />
+                <a href="#modal-06" title="work">
+                  <img alt="image" src="images/portfolio/girl.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Girl</h5>
@@ -115,8 +115,8 @@ function Portfolio() {
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-07" title>
-                  <img alt src="images/portfolio/origami.jpg" />
+                <a href="#modal-07" title="work">
+                  <img alt="image" src="images/portfolio/origami.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Origami</h5>
@@ -132,8 +132,8 @@ function Portfolio() {
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
-                <a href="#modal-08" title>
-                  <img alt src="images/portfolio/retrocam.jpg" />
+                <a href="#modal-08" title="work">
+                  <img alt="image" src="images/portfolio/retrocam.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Retrocam</h5>
@@ -157,7 +157,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-coffee.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Coffee Cup</h4>
@@ -181,7 +181,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-console.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Console</h4>
@@ -205,7 +205,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-judah.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Judah</h4>
@@ -229,7 +229,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-intothelight.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Into the Light</h4>
@@ -253,7 +253,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-farmerboy.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Farmer Boy</h4>
@@ -277,7 +277,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-girl.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Girl</h4>
@@ -301,7 +301,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-origami.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Origami</h4>
@@ -325,7 +325,7 @@ function Portfolio() {
           <img
             className="scale-with-grid"
             src="images/portfolio/modals/m-retrocam.jpg"
-            alt
+            alt="image"
           />
           <div className="description-box">
             <h4>Retrocam</h4>
