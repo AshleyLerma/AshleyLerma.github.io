@@ -18,7 +18,7 @@ Minimum Requirements
 - Must contain your personalized information. (bio, name, images, links to social media, etc.)
 - Must be a responsive web page with responsive images
 
-BYour updated site should have the following content:
+Your updated site should have the following content:
 
 - Your name
 - Links to your GitHub profile & LinkedIn page as well as your email address and phone number
