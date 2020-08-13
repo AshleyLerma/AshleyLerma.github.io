@@ -14,11 +14,14 @@ function Portfolio() {
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-01" title="work">
-                  <img alt="tbd" src="images/portfolio/coffee.jpg" />
+                  <img alt="tbd" src="images/portfolio/gitDrunk.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>Coffee</h5>
-                      <p>Illustrration</p>
+                      <h5>gitDrunk</h5>
+                      <p>
+                        Look up cocktails based on the ingredients you have at
+                        home.
+                      </p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -26,7 +29,7 @@ function Portfolio() {
                   </div>
                 </a>
               </div>
-            </div>{" "}
+            </div>
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -156,23 +159,21 @@ function Portfolio() {
         <div id="modal-01" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/m-coffee.jpg"
-            alt="tbd"
+            src="images/portfolio/modals/m-gitDrunk.jpg"
+            alt="cocktail"
           />
           <div className="description-box">
-            <h4>Coffee Cup</h4>
-            <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
-            </p>
+            <h4>gitDrunk</h4>
+            <p>Look up cocktails based on the ingredients you have at home.</p>
             <span className="categories">
               <i className="fa fa-tag" />
-              Branding, Webdesign
+              html, css, javascript
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="https://party-of-five.github.io/gitDrunk/" target="blank">
+              Try It
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
