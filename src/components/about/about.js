@@ -34,14 +34,18 @@ function About() {
                 <span>lerma.scout@gmail.com</span>
               </p>
             </div>
-            {/* <div className="columns download">
+            <div className="columns download">
               <p>
-                <a href="#" className="button">
+                <a
+                  href="https://docs.google.com/document/d/131K-0XDabnHWOHWsii3iYIborrt5-fJDycWWUVUIuG4/edit?usp=sharing"
+                  target="blank"
+                  className="button"
+                >
                   <i className="fa fa-download" />
                   Download Resume
                 </a>
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
