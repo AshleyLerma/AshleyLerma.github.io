@@ -7,10 +7,7 @@ function Portfolio() {
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
           {/* portfolio-wrapper */}
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
+          <div id="portfolio-wrapper" className="bgrid-thirds cf">
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-01" title="work">
