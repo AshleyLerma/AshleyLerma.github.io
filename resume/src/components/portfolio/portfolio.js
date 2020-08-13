@@ -85,11 +85,11 @@ function Portfolio() {
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-05" title="work">
-                  <img alt="tbd" src="images/portfolio/farmerboy.jpg" />
+                  <img alt="question mark" src="images/portfolio/quiz.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>Farmer Boy</h5>
-                      <p>Branding</p>
+                      <h5>Office Quiz</h5>
+                      <p>Test your knowledge of the hit show The Office.</p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -102,45 +102,11 @@ function Portfolio() {
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-06" title="work">
-                  <img alt="tbd" src="images/portfolio/girl.jpg" />
+                  <img alt="planner" src="images/portfolio/planner.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>Girl</h5>
-                      <p>Photography</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>{" "}
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-07" title="work">
-                  <img alt="tbd" src="images/portfolio/origami.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Origami</h5>
-                      <p>Illustrration</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>{" "}
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-08" title="work">
-                  <img alt="tbd" src="images/portfolio/retrocam.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Retrocam</h5>
-                      <p>Web Development</p>
+                      <h5>Day Planner</h5>
+                      <p>Day scheduler application.</p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -154,8 +120,7 @@ function Portfolio() {
           {/* portfolio-wrapper end */}
         </div>{" "}
         {/* twelve columns end */}
-        {/* Modal Popup
-	      --------------------------------------------------------------- */}
+        {/* Modal Popup */}
         <div id="modal-01" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
@@ -252,23 +217,24 @@ function Portfolio() {
         <div id="modal-05" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/m-farmerboy.jpg"
-            alt="tbd"
+            src="images/portfolio/modals/m-quiz.jpg"
+            alt="question marks"
           />
           <div className="description-box">
-            <h4>Farmer Boy</h4>
+            <h4>Office Quiz</h4>
             <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
+              Test your knowledge of the hit TV series The Office with this
+              timed quiz.
             </p>
             <span className="categories">
               <i className="fa fa-tag" />
-              Branding, Webdesign
+              Javascript, HTML, CSS
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="https://ashleylerma.github.io/codeQuiz/" target="blank">
+              Try It
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
@@ -276,75 +242,28 @@ function Portfolio() {
         <div id="modal-06" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/m-girl.jpg"
-            alt="tbd"
+            src="images/portfolio/modals/m-planner.jpg"
+            alt="planner"
           />
           <div className="description-box">
-            <h4>Girl</h4>
+            <h4>Day Planner</h4>
             <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
+              Day scheduler application that allows you to easily reference what
+              you still have to do for the day.
             </p>
             <span className="categories">
               <i className="fa fa-tag" />
-              Photography
+              Javascript, HTML, CSS
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="https://ashleylerma.github.io/dayPlanner/" target="blank">
+              Try It
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
         {/* modal-06 End */}
-        <div id="modal-07" className="popup-modal mfp-hide">
-          <img
-            className="scale-with-grid"
-            src="images/portfolio/modals/m-origami.jpg"
-            alt="tbd"
-          />
-          <div className="description-box">
-            <h4>Origami</h4>
-            <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
-            </p>
-            <span className="categories">
-              <i className="fa fa-tag" />
-              Branding, Illustration
-            </span>
-          </div>
-          <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
-            <a className="popup-modal-dismiss">Close</a>
-          </div>
-        </div>
-        {/* modal-07 End */}
-        <div id="modal-08" className="popup-modal mfp-hide">
-          <img
-            className="scale-with-grid"
-            src="images/portfolio/modals/m-retrocam.jpg"
-            alt="tbd"
-          />
-          <div className="description-box">
-            <h4>Retrocam</h4>
-            <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
-            </p>
-            <span className="categories">
-              <i className="fa fa-tag" />
-              Webdesign, Photography
-            </span>
-          </div>
-          <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
-            <a className="popup-modal-dismiss">Close</a>
-          </div>
-        </div>
-        {/* modal-01 End */}
       </div>
       {/* row End */}
     </section>
