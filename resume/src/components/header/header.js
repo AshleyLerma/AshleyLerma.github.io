@@ -15,11 +15,11 @@ function Header() {
               About
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className="smoothscroll" href="#resume">
               Resume
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="smoothscroll" href="#portfolio">
               Works
