@@ -1,8 +1,10 @@
 # AshleyLerma.github.io
 
 The homework for week 2 was to create a portfolio including a home, contact and portfolio page.
+For week 16's homework I have updated my portfolio to utilize react. 
 
 See it here : https://ashleylerma.github.io/
+
 
 Minimum Requirements
 
@@ -14,14 +16,16 @@ Minimum Requirements
 - Must use semantic html.
 - Each page must have valid and correct HTML. (use a validation service)
 - Must contain your personalized information. (bio, name, images, links to social media, etc.)
-- Must properly utilize Bootstrap components and grid system.
-- Must have 100 commits
 - Must be a responsive web page with responsive images
 
-Below are the preliminary ideas for how to break down each page but changes were made as needed.
+BYour updated site should have the following content:
 
-![](assets/outlines/indexDiagram.jpg)
+- Your name
+- Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+- A link to a PDF of your resume
+- A list of projects. For each project, make sure you have the following:
+  - Project title
+  - Link to the deployed version
+  - Link to the GitHub repository
+  - Screenshot of the deployed application
 
-![](assets/outlines/contactDiagram.jpg)
-
-![](assets/outlines/portfolioDiagram.jpg)
