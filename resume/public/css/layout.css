@@ -715,12 +715,11 @@ ul#nav li.current a {
   color: #636363;
   font-size: 17px;
 }
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
+#call-to-action .button {
+  color: #fff;
+  background: #0d0d0d;
 }
-*/
+
 #call-to-action .button:hover,
 #call-to-action .button:active {
   background: #ffffff;
@@ -980,7 +979,7 @@ call-to-action .button {
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
-  /* float: left; */
+  float: left;
   width: 26%;
 }
 #contact input,
@@ -1047,24 +1046,6 @@ call-to-action .button {
   position: relative;
   left: 18px;
   top: 17px;
-}
-
-/* Twitter Feed */
-#twitter {
-  margin-top: 12px;
-  padding: 0;
-}
-#twitter li {
-  margin: 6px 0px 12px 0;
-  line-height: 30px;
-}
-#twitter li span {
-  display: block;
-}
-#twitter li b a {
-  font: 13px/36px "opensans-regular", Sans-serif;
-  color: #474747 !important;
-  border: none;
 }
 
 /* ------------------------------------------------------------------ */
