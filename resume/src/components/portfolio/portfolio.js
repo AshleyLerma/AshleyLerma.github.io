@@ -51,11 +51,11 @@ function Portfolio() {
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-03" title="work">
-                  <img alt="tbd" src="images/portfolio/judah.jpg" />
+                  <img alt="notepad" src="images/portfolio/noteTaker.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>Judah</h5>
-                      <p>Webdesign</p>
+                      <h5>Note Taker</h5>
+                      <p>Note taking application</p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -63,16 +63,16 @@ function Portfolio() {
                   </div>
                 </a>
               </div>
-            </div>{" "}
+            </div>
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-04" title="work">
-                  <img alt="tbd" src="images/portfolio/into-the-light.jpg" />
+                  <img alt="weather" src="images/portfolio/weatherApp.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>Into The Light</h5>
-                      <p>Photography</p>
+                      <h5>Weather Dashboard</h5>
+                      <p>Weather application</p>
                     </div>
                   </div>
                   <div className="link-icon">
@@ -80,7 +80,7 @@ function Portfolio() {
                   </div>
                 </a>
               </div>
-            </div>{" "}
+            </div>
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -203,19 +203,23 @@ function Portfolio() {
         <div id="modal-03" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/m-judah.jpg"
-            alt="grocery cart"
+            src="images/portfolio/modals/m-noteTaker.jpg"
+            alt="notepad"
           />
           <div className="description-box">
-            <h4>TBD</h4>
-            <p>Info here</p>
+            <h4>Note Taker</h4>
+            <p>
+              An application that can be used to write, save, and delete notes.
+            </p>
             <span className="categories">
               <i className="fa fa-tag" />
-              Javascript, HTML, SQL, Sequelize, CSS, React
+              Javascript, HTML, CSS, Express
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="https://note-taker-ashley.herokuapp.com/" target="blank">
+              Try It
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
@@ -223,23 +227,24 @@ function Portfolio() {
         <div id="modal-04" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/m-intothelight.jpg"
-            alt="tbd"
+            src="images/portfolio/modals/m-weatherApp.jpg"
+            alt="weather"
           />
           <div className="description-box">
-            <h4>Into the Light</h4>
-            <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
-            </p>
+            <h4>Weather Dashboard</h4>
+            <p>Check the weather and forecast anywhere around the world.</p>
             <span className="categories">
               <i className="fa fa-tag" />
-              Photography
+              HTML, CSS, Javascript
             </span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a
+              href="https://ashleylerma.github.io/Weather-Dashboard/"
+              target="blank"
+            >
+              Try It
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
