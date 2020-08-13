@@ -14,7 +14,7 @@ function Portfolio() {
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-01" title="work">
-                  <img alt="tbd" src="images/portfolio/gitDrunk.jpg" />
+                  <img alt="cocktail" src="images/portfolio/gitDrunk.jpg" />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>gitDrunk</h5>
@@ -97,7 +97,7 @@ function Portfolio() {
                   </div>
                 </a>
               </div>
-            </div>{" "}
+            </div>
             {/* item end */}
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -114,11 +114,11 @@ function Portfolio() {
                   </div>
                 </a>
               </div>
-            </div>{" "}
+            </div>
             {/* item end */}
-          </div>{" "}
+          </div>
           {/* portfolio-wrapper end */}
-        </div>{" "}
+        </div>
         {/* twelve columns end */}
         {/* Modal Popup */}
         <div id="modal-01" className="popup-modal mfp-hide">
