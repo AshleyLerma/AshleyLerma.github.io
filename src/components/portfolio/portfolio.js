@@ -136,6 +136,9 @@ function Portfolio() {
             <a href="https://party-of-five.github.io/gitDrunk/" target="blank">
               Try It
             </a>
+            <a href="https://github.com/Party-of-Five/gitDrunk" target="blank">
+              Details
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
@@ -157,6 +160,9 @@ function Portfolio() {
           <div className="link-box">
             <a href="https://bagit-and-tagit.herokuapp.com/" target="blank">
               Try It
+            </a>
+            <a href="https://github.com/The-CallBack-Cats/BagIt" target="blank">
+              Details
             </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
@@ -181,6 +187,9 @@ function Portfolio() {
           <div className="link-box">
             <a href="https://note-taker-ashley.herokuapp.com/" target="blank">
               Try It
+            </a>
+            <a href="https://github.com/AshleyLerma/NoteTaker" target="blank">
+              Details
             </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
@@ -207,6 +216,12 @@ function Portfolio() {
             >
               Try It
             </a>
+            <a
+              href="https://github.com/AshleyLerma/Weather-Dashboard"
+              target="blank"
+            >
+              Details
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
@@ -232,6 +247,9 @@ function Portfolio() {
             <a href="https://ashleylerma.github.io/codeQuiz/" target="blank">
               Try It
             </a>
+            <a href="https://github.com/AshleyLerma/codeQuiz" target="blank">
+              Details
+            </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>
@@ -256,6 +274,9 @@ function Portfolio() {
           <div className="link-box">
             <a href="https://ashleylerma.github.io/dayPlanner/" target="blank">
               Try It
+            </a>
+            <a href="https://github.com/AshleyLerma/dayPlanner" target="blank">
+              Details
             </a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
