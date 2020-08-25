@@ -136,7 +136,9 @@ function Portfolio() {
             <a href="https://party-of-five.github.io/gitDrunk/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss">Close</a>
+            <a className="popup-modal-dismiss" href="x">
+              Close
+            </a>
           </div>
         </div>
         {/* modal-01 End */}
@@ -158,7 +160,9 @@ function Portfolio() {
             <a href="https://bagit-and-tagit.herokuapp.com/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss">Close</a>
+            <a className="popup-modal-dismiss" href="x">
+              Close
+            </a>
           </div>
         </div>
         {/* modal-02 End */}
@@ -182,7 +186,9 @@ function Portfolio() {
             <a href="https://note-taker-ashley.herokuapp.com/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss">Close</a>
+            <a className="popup-modal-dismiss" href="x">
+              Close
+            </a>
           </div>
         </div>
         {/* modal-03 End */}
@@ -207,7 +213,9 @@ function Portfolio() {
             >
               Try It
             </a>
-            <a className="popup-modal-dismiss">Close</a>
+            <a className="popup-modal-dismiss" href="x">
+              Close
+            </a>
           </div>
         </div>
         {/* modal-04 End */}
@@ -232,7 +240,9 @@ function Portfolio() {
             <a href="https://ashleylerma.github.io/codeQuiz/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss">Close</a>
+            <a className="popup-modal-dismiss" href="x">
+              Close
+            </a>
           </div>
         </div>
         {/* modal-05 End */}
@@ -257,7 +267,9 @@ function Portfolio() {
             <a href="https://ashleylerma.github.io/dayPlanner/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss">Close</a>
+            <a className="popup-modal-dismiss" href="x">
+              Close
+            </a>
           </div>
         </div>
         {/* modal-06 End */}

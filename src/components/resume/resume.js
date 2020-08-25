@@ -13,38 +13,23 @@ function Resume() {
         <div className="nine columns main-col">
           <div className="row item">
             <div className="twelve columns">
-              <h3>University of Life</h3>
+              <h3>University of Texas at Austin</h3>
               <p className="info">
-                Master in Graphic Design <span>•</span>{" "}
-                <em className="date">April 2007</em>
+                Full Stack Coding Bootcamp <span>•</span>{" "}
+                <em className="date">October 2020</em>
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum
-                felis eu pede mollis pretium.
-              </p>
+              <p>Some stuff about the Coding Bootcamp.</p>
             </div>
           </div>{" "}
           {/* item end */}
           <div className="row item">
             <div className="twelve columns">
-              <h3>School of Cool Designers</h3>
+              <h3>University of Texas at Austin</h3>
               <p className="info">
-                B.A. Degree in Graphic Design <span>•</span>{" "}
-                <em className="date">March 2003</em>
+                B.A. Degree in International Relations and Global Studies{" "}
+                <span>•</span> <em className="date">May 2016</em>
               </p>
-              <p>
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
-                tincidunt auctor a ornare odio. Sed non mauris vitae erat
-              </p>
+              <p>This is some info about my bachelors from UT</p>
             </div>
           </div>{" "}
           {/* item end */}
@@ -56,30 +41,22 @@ function Resume() {
       <div className="row work">
         <div className="three columns header-col">
           <h1>
-            <span>Work</span>
+            <span>Professional</span>
           </h1>
         </div>
         <div className="nine columns main-col">
           <div className="row item">
             <div className="twelve columns">
-              <h3>Awesome Design Studio</h3>
+              <h3>New Waterloo</h3>
               <p className="info">
-                Senior UX Designer <span>•</span>{" "}
-                <em className="date">March 2010 - Present</em>
+                Conference Services Manager <span>•</span>{" "}
+                <em className="date">September 2016 - Present</em>
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum
-                felis eu pede mollis pretium.
-              </p>
+              <p>Stuff about my job.</p>
             </div>
           </div>{" "}
           {/* item end */}
-          <div className="row item">
+          {/* <div className="row item">
             <div className="twelve columns">
               <h3>Super Cool Studio</h3>
               <p className="info">
@@ -96,7 +73,7 @@ function Resume() {
               </p>
             </div>
           </div>{" "}
-          {/* item end */}
+          item end */}
         </div>{" "}
         {/* main-col end */}
       </div>{" "}
@@ -109,27 +86,20 @@ function Resume() {
           </h1>
         </div>
         <div className="nine columns main-col">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt.
-          </p>
+          <p>Some stuff about my skills</p>
           <div className="bars">
             <ul className="skills">
               <li>
                 <span className="bar-expand photoshop" />
-                <em>Photoshop</em>
+                <em>React JS</em>
               </li>
               <li>
                 <span className="bar-expand illustrator" />
-                <em>Illustrator</em>
+                <em>Javascript</em>
               </li>
               <li>
                 <span className="bar-expand wordpress" />
-                <em>Wordpress</em>
+                <em>jQuery</em>
               </li>
               <li>
                 <span className="bar-expand css" />
@@ -141,7 +111,7 @@ function Resume() {
               </li>
               <li>
                 <span className="bar-expand jquery" />
-                <em>jQuery</em>
+                <em>MongoDB</em>
               </li>
             </ul>
           </div>
