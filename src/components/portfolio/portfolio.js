@@ -1,4 +1,6 @@
 import React from "react";
+import Item from "./portfolioItem";
+import projects from "./itemInfo";
 
 function Portfolio() {
   return (
@@ -8,26 +10,11 @@ function Portfolio() {
           <h1>Check Out Some of My Works.</h1>
           {/* portfolio-wrapper */}
           <div id="portfolio-wrapper" className="bgrid-thirds cf">
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-01" title="work">
-                  <img alt="cocktail" src="images/portfolio/gitDrunk.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>gitDrunk</h5>
-                      <p>
-                        Look up cocktails based on the ingredients you have at
-                        home.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
+            <React.Fragment>
+              {projects.map((currentItem) => {
+                return <Item />;
+              })}
+            </React.Fragment>
             <div className="columns portfolio-item">
               <div className="item-wrap">
                 <a href="#modal-02" title="work">
