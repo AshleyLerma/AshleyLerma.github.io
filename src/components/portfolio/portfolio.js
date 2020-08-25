@@ -11,103 +11,18 @@ function Portfolio() {
           {/* portfolio-wrapper */}
           <div id="portfolio-wrapper" className="bgrid-thirds cf">
             <React.Fragment>
-              {projects.map((currentItem) => {
+              {projects.map((currentItem, index) => {
                 return (
                   <Item
                     name={currentItem.name}
                     description={currentItem.description}
                     image={currentItem.image}
                     modal={currentItem.modal}
-                    key={currentItem}
+                    key={index}
                   />
                 );
               })}
             </React.Fragment>
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-02" title="work">
-                  <img alt="tbd" src="images/portfolio/bagit.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>BagIt</h5>
-                      <p>Grocery List App</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-03" title="work">
-                  <img alt="notepad" src="images/portfolio/noteTaker.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Note Taker</h5>
-                      <p>Note taking application</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-04" title="work">
-                  <img alt="weather" src="images/portfolio/weatherApp.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Weather Dashboard</h5>
-                      <p>Weather application</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-05" title="work">
-                  <img alt="question mark" src="images/portfolio/quiz.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Office Quiz</h5>
-                      <p>Test your knowledge of the hit show The Office.</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-06" title="work">
-                  <img alt="planner" src="images/portfolio/planner.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Day Planner</h5>
-                      <p>Day scheduler application.</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
           </div>
           {/* portfolio-wrapper end */}
         </div>
