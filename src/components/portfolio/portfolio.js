@@ -12,7 +12,15 @@ function Portfolio() {
           <div id="portfolio-wrapper" className="bgrid-thirds cf">
             <React.Fragment>
               {projects.map((currentItem) => {
-                return <Item />;
+                return (
+                  <Item
+                    name={currentItem.name}
+                    description={currentItem.description}
+                    image={currentItem.image}
+                    modal={currentItem.modal}
+                    key={currentItem}
+                  />
+                );
               })}
             </React.Fragment>
             <div className="columns portfolio-item">
