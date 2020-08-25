@@ -37,8 +37,8 @@ function About() {
             <div className="columns download">
               <p>
                 <a
-                  href="https://docs.google.com/document/d/131K-0XDabnHWOHWsii3iYIborrt5-fJDycWWUVUIuG4/edit?usp=sharing"
                   target="blank"
+                  href="https://docs.google.com/document/d/131K-0XDabnHWOHWsii3iYIborrt5-fJDycWWUVUIuG4/edit?usp=sharing"
                   className="button"
                 >
                   <i className="fa fa-download" />
