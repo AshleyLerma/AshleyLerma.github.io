@@ -14,11 +14,8 @@ function Portfolio() {
               {projects.map((currentItem, index) => {
                 return (
                   <Item
-                    name={currentItem.name}
-                    description={currentItem.description}
-                    image={currentItem.image}
-                    modal={currentItem.modal}
-                    key={index}
+                    currentItem = {currentItem}
+                    key = {index}
                   />
                 );
               })}

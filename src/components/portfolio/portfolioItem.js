@@ -4,12 +4,12 @@ function Item(props) {
   return (
     <div className="columns portfolio-item">
       <div className="item-wrap">
-        <a href={props.modal} title="work">
-          <img alt={props.name} src={props.image} />
+        <a href={props.currentItem.modal} title="work">
+          <img alt={props.currentItem.name} src={props.currentItem.image} />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>{props.name}</h5>
-              <p>{props.description}</p>
+              <h5>{props.currentItem.name}</h5>
+              <p>{props.currentItem.description}</p>
             </div>
           </div>
           <div className="link-icon">
