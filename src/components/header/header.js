@@ -43,7 +43,7 @@ function Header() {
           <h1 className="responsive-headline">I'm Ashley Lerma.</h1>
           <h3>
             An <span>Austin</span> based <span>Software Developer </span>
-            with a background in event management. Detail oriented, and
+            with a background in event management. Detail oriented and
             self-driven with a passion for learning. Enrolled in the{" "}
             <span>full-stack development</span> coding bootcamp at the
             University of Texas at Austin.

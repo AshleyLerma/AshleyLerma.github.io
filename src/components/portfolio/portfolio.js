@@ -1,4 +1,6 @@
 import React from "react";
+import Item from "./portfolioItem";
+import projects from "./itemInfo";
 
 function Portfolio() {
   return (
@@ -8,111 +10,16 @@ function Portfolio() {
           <h1>Check Out Some of My Works.</h1>
           {/* portfolio-wrapper */}
           <div id="portfolio-wrapper" className="bgrid-thirds cf">
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-01" title="work">
-                  <img alt="cocktail" src="images/portfolio/gitDrunk.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>gitDrunk</h5>
-                      <p>
-                        Look up cocktails based on the ingredients you have at
-                        home.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-02" title="work">
-                  <img alt="tbd" src="images/portfolio/bagit.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>BagIt</h5>
-                      <p>Grocery List App</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-03" title="work">
-                  <img alt="notepad" src="images/portfolio/noteTaker.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Note Taker</h5>
-                      <p>Note taking application</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-04" title="work">
-                  <img alt="weather" src="images/portfolio/weatherApp.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Weather Dashboard</h5>
-                      <p>Weather application</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-05" title="work">
-                  <img alt="question mark" src="images/portfolio/quiz.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Office Quiz</h5>
-                      <p>Test your knowledge of the hit show The Office.</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-06" title="work">
-                  <img alt="planner" src="images/portfolio/planner.jpg" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>Day Planner</h5>
-                      <p>Day scheduler application.</p>
-                    </div>
-                  </div>
-                  <div className="link-icon">
-                    <i className="icon-plus" />
-                  </div>
-                </a>
-              </div>
-            </div>
-            {/* item end */}
+            <React.Fragment>
+              {projects.map((currentItem, index) => {
+                return (
+                  <Item
+                    currentItem = {currentItem}
+                    key = {index}
+                  />
+                );
+              })}
+            </React.Fragment>
           </div>
           {/* portfolio-wrapper end */}
         </div>
@@ -136,7 +43,11 @@ function Portfolio() {
             <a href="https://party-of-five.github.io/gitDrunk/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss" href="x">
+            {"  "}
+            <a href="https://github.com/Party-of-Five/gitDrunk" target="blank">
+              Details
+            </a>
+            <a href="#/" className="popup-modal-dismiss">
               Close
             </a>
           </div>
@@ -160,7 +71,11 @@ function Portfolio() {
             <a href="https://bagit-and-tagit.herokuapp.com/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss" href="x">
+            {"  "}
+            <a href="https://github.com/The-CallBack-Cats/BagIt" target="blank">
+              Details
+            </a>
+            <a href="#/" className="popup-modal-dismiss">
               Close
             </a>
           </div>
@@ -186,7 +101,11 @@ function Portfolio() {
             <a href="https://note-taker-ashley.herokuapp.com/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss" href="x">
+            {"  "}
+            <a href="https://github.com/AshleyLerma/NoteTaker" target="blank">
+              Details
+            </a>
+            <a href="#/" className="popup-modal-dismiss">
               Close
             </a>
           </div>
@@ -213,7 +132,14 @@ function Portfolio() {
             >
               Try It
             </a>
-            <a className="popup-modal-dismiss" href="x">
+            {"  "}
+            <a
+              href="https://github.com/AshleyLerma/Weather-Dashboard"
+              target="blank"
+            >
+              Details
+            </a>
+            <a href="#/" className="popup-modal-dismiss">
               Close
             </a>
           </div>
@@ -240,7 +166,11 @@ function Portfolio() {
             <a href="https://ashleylerma.github.io/codeQuiz/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss" href="x">
+            {"  "}
+            <a href="https://github.com/AshleyLerma/codeQuiz" target="blank">
+              Details
+            </a>
+            <a href="#/" className="popup-modal-dismiss">
               Close
             </a>
           </div>
@@ -267,7 +197,11 @@ function Portfolio() {
             <a href="https://ashleylerma.github.io/dayPlanner/" target="blank">
               Try It
             </a>
-            <a className="popup-modal-dismiss" href="x">
+            <a href="https://github.com/AshleyLerma/dayPlanner" target="blank">
+              Details
+            </a>
+            {"  "}
+            <a href="#/" className="popup-modal-dismiss">
               Close
             </a>
           </div>
