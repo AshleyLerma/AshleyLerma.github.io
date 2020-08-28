@@ -8,6 +8,7 @@ var projects = [
     tags: ["html", "css", "javascript"],
     tryIt: "https://party-of-five.github.io/gitDrunk/",
     details: "https://github.com/Party-of-Five/gitDrunk",
+    id: "modal-01" 
   },
   {
     name: "BagIt",

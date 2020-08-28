@@ -1,6 +1,7 @@
 import React from "react";
 import Item from "./Item";
 import projects from "./itemInfo";
+import Modal from "./Modal";
 
 function Works() {
   return (
@@ -25,6 +26,14 @@ function Works() {
         </div>
         {/* twelve columns end */}
         {/* Modal Popup */}
+        {projects.map((currentItem, index) => {
+                return (
+                  <Modal
+                    currentItem = {currentItem}
+                    key = {index}
+                  />
+                );
+              })}
         <div id="modal-01" className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
