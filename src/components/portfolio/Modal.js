@@ -5,7 +5,7 @@ function Modal(props) {
     <div id={props.currentItem.id} className="popup-modal mfp-hide">
           <img
             className="scale-with-grid"
-            src="images/portfolio/modals/m-gitDrunk.jpg"
+            src={props.currentItem.modalImage}
             alt={props.currentItem.name}
           />
           <div className="description-box">
