@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/header/header";
-import About from "./components/about/about";
+import Header from "./components/header/Header";
+import About from "./components/about/About";
 // import Resume from "./components/resume/resume";
-import Portfolio from "./components/portfolio/portfolio";
-import ContactUs from "./components/contactus/contactus";
-import Footer from "./components/footer/footer";
-import Testimonials from "./components/testimonials/testimonials";
+import Portfolio from "./components/portfolio/Portfolio";
+import ContactUs from "./components/contactus/ContactUs";
+import Footer from "./components/footer/Footer";
+import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
   return (
