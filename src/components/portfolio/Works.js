@@ -2,7 +2,7 @@ import React from "react";
 import Item from "./Item";
 import projects from "./itemInfo";
 
-function Portfolio() {
+function Works() {
   return (
     <section id="portfolio">
       <div className="row">
@@ -212,4 +212,4 @@ function Portfolio() {
     </section>
   );
 }
-export default Portfolio;
+export default Works;

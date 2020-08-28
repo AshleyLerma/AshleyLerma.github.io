@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 // import Resume from "./components/resume/resume";
-import Portfolio from "./components/portfolio/Portfolio";
+import Works from "./components/portfolio/Works";
 import ContactUs from "./components/contactus/ContactUs";
 import Footer from "./components/footer/Footer";
 import Testimonials from "./components/testimonials/Testimonials";
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <About />
       {/* <Resume /> */}
-      <Portfolio />
+      <Works />
       <Testimonials />
       <ContactUs />
       <Footer />
