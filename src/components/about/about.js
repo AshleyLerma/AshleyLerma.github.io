@@ -2,16 +2,16 @@ import React from "react";
 
 function About() {
   return (
-    <section id="about">
-      <div className="row">
-        <div className="three columns">
+    <section id='about'>
+      <div className='row'>
+        <div className='three columns'>
           <img
-            className="profile-pic"
-            src="images/profilepic.jpg"
-            alt="profile pic"
+            className='profile-pic'
+            src='images/profilepic.jpg'
+            alt='profile pic'
           />
         </div>
-        <div className="nine columns main-col">
+        <div className='nine columns main-col'>
           <h2>About Me</h2>
           <p>
             My name is Ashley Lerma often called by my middle name, Scout.
@@ -21,10 +21,10 @@ function About() {
             years of experience working in a fast-paced enviorment where every
             detail matters, I am excited to grow my skills in this new endeavor.
           </p>
-          <div className="row">
-            <div className="columns contact-details">
+          <div className='row'>
+            <div className='columns contact-details'>
               <h2>Contact Details</h2>
-              <p className="address">
+              <p className='address'>
                 <span>Ashley Lerma</span>
                 <br />
                 <span>Austin, TX 78741</span>
@@ -34,14 +34,15 @@ function About() {
                 <span>lerma.scout@gmail.com</span>
               </p>
             </div>
-            <div className="columns download">
+            <div className='columns download'>
               <p>
                 <a
-                  target="blank"
-                  href="https://docs.google.com/document/d/131K-0XDabnHWOHWsii3iYIborrt5-fJDycWWUVUIuG4/edit?usp=sharing"
-                  className="button"
+                  target='blank'
+                  href='https://drive.google.com/file/d/1yqm-7zoOtKFR2wpOrcLn1n43C9lMZVBZ/view?usp=sharingf'
+                  download='AshleyLermaResume'
+                  className='button'
                 >
-                  <i className="fa fa-download" />
+                  <i className='fa fa-download' />
                   Download Resume
                 </a>
               </p>
