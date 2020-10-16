@@ -12,7 +12,8 @@ var projects = [
   },
   {
     name: "gitLit",
-    description: "A revamp of gitDrunk using React",
+    description:
+      "A revamp of gitDrunk using React and the addition of a backend via Mongo.",
     image: "images/portfolio/gitlit.jpg",
     modal: "#modal-02",
     modalImage: "images/portfolio/modals/m-gitlit.jpg",
