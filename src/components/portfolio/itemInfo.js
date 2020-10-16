@@ -8,18 +8,18 @@ var projects = [
     tags: "HTML, CSS, Javascript",
     tryIt: "https://party-of-five.github.io/gitDrunk/",
     details: "https://github.com/Party-of-Five/gitDrunk",
-    id: "modal-01" 
+    id: "modal-01",
   },
   {
-    name: "BagIt",
-    description: "Grocery List App",
-    image: "images/portfolio/bagit.jpg",
+    name: "gitLit",
+    description: "A revamp of gitDrunk using React",
+    image: "images/portfolio/gitlit.jpg",
     modal: "#modal-02",
-    modalImage: "images/portfolio/modals/m-bagit.jpg",
-    tags: "Javascript, HTML, SQL, Sequelize, CSS, React",
-    tryIt: "https://bagit-and-tagit.herokuapp.com/",
-    details: "https://github.com/The-CallBack-Cats/BagIt",
-    id: "modal-02" 
+    modalImage: "images/portfolio/modals/m-gitlit.jpg",
+    tags: "Javascript, HTML, Mongo, MongoDB Atlas, CSS, React",
+    tryIt: "https://gitlit-app.herokuapp.com/",
+    details: "https://github.com/J-A-M-M-S/gitLit",
+    id: "modal-02",
   },
   {
     name: "Note Taker",
@@ -30,7 +30,7 @@ var projects = [
     tags: "Javascript, HTML, CSS, Express",
     tryIt: "https://note-taker-ashley.herokuapp.com/",
     details: "https://github.com/AshleyLerma/NoteTaker",
-    id: "modal-03" 
+    id: "modal-03",
   },
   {
     name: "Weather Dashboard",
@@ -41,7 +41,7 @@ var projects = [
     tags: "HTML, CSS, Javascript",
     tryIt: "https://ashleylerma.github.io/Weather-Dashboard/",
     details: "https://github.com/AshleyLerma/Weather-Dashboard",
-    id: "modal-04" 
+    id: "modal-04",
   },
   {
     name: "Office Quiz",
@@ -52,7 +52,7 @@ var projects = [
     tags: "Javascript, HTML, CSS",
     tryIt: "https://ashleylerma.github.io/codeQuiz/",
     details: "https://github.com/AshleyLerma/codeQuiz",
-    id: "modal-05" 
+    id: "modal-05",
   },
   {
     name: "Day Planner",
@@ -63,7 +63,7 @@ var projects = [
     tags: "Javascript, HTML, CSS",
     tryIt: "https://ashleylerma.github.io/dayPlanner/",
     details: "https://github.com/AshleyLerma/dayPlanner",
-    id: "modal-06" 
+    id: "modal-06",
   },
 ];
 export default projects;
