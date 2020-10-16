@@ -2,17 +2,17 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <section id="testimonials">
-      <div className="text-container">
-        <div className="row">
-          <div className="two columns header-col">
+    <section id='testimonials'>
+      <div className='text-container'>
+        <div className='row'>
+          <div className='two columns header-col'>
             <h1>
-              <span>Client Testimonials</span>
+              <span>Motivational Quotes</span>
             </h1>
           </div>
-          <div className="ten columns flex-container">
-            <div className="flexslider">
-              <ul className="slides">
+          <div className='ten columns flex-container'>
+            <div className='flexslider'>
+              <ul className='slides'>
                 <li>
                   <blockquote>
                     <p>

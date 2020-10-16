@@ -2,16 +2,16 @@ import React from "react";
 
 function Header() {
   return (
-    <header id="home">
-      <nav id="nav-wrap">
-        <ul id="nav" className="nav">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
+    <header id='home'>
+      <nav id='nav-wrap'>
+        <ul id='nav' className='nav'>
+          <li className='current'>
+            <a className='smoothscroll' href='#home'>
               Home
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#about">
+            <a className='smoothscroll' href='#about'>
               About
             </a>
           </li>
@@ -21,26 +21,26 @@ function Header() {
             </a>
           </li> */}
           <li>
-            <a className="smoothscroll" href="#portfolio">
+            <a className='smoothscroll' href='#portfolio'>
               Works
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
+            <a className='smoothscroll' href='#testimonials'>
+              Inspiration
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#contact">
+            <a className='smoothscroll' href='#contact'>
               Contact
             </a>
           </li>
         </ul>
       </nav>
 
-      <div className="row banner">
-        <div className="banner-text">
-          <h1 className="responsive-headline">I'm Ashley Lerma.</h1>
+      <div className='row banner'>
+        <div className='banner-text'>
+          <h1 className='responsive-headline'>I'm Ashley Lerma.</h1>
           <h3>
             An <span>Austin</span> based <span>Software Developer </span>
             with a background in event management. Detail oriented and
@@ -49,23 +49,23 @@ function Header() {
             University of Texas at Austin.
           </h3>
           <hr />
-          <ul className="social">
+          <ul className='social'>
             <li>
-              <a href="https://www.linkedin.com/in/ashleylerma/" target="blank">
-                <i className="fa fa-linkedin" />
+              <a href='https://www.linkedin.com/in/ashleylerma/' target='blank'>
+                <i className='fa fa-linkedin' />
               </a>
             </li>
             <li>
-              <a href="https://github.com/AshleyLerma" target="blank">
-                <i className="fa fa-github" />
+              <a href='https://github.com/AshleyLerma' target='blank'>
+                <i className='fa fa-github' />
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
-          <i className="icon-down-circle" />
+      <p className='scrolldown'>
+        <a className='smoothscroll' href='#about'>
+          <i className='icon-down-circle' />
         </a>
       </p>
     </header>
